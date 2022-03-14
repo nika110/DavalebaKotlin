@@ -1,0 +1,20 @@
+fun main(args: Array<String>) {
+    var num = 121
+    var firstinteger = 0
+    var shesanaxiint: Int
+    val secondinteger: Int
+
+    secondinteger = num
+
+    while (num != 0) {
+        shesanaxiint = num % 10
+        firstinteger = firstinteger * 10 + shesanaxiint
+        num /= 10
+    }
+
+
+    if (secondinteger == firstinteger)
+        println(true)
+    else
+        println(false)
+}
